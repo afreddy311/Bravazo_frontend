@@ -2,7 +2,8 @@ import { Container, Box } from '@mui/material';
 import { Grid, Link, Typography } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import SubscriptionsRoundedIcon from '@mui/icons-material/SubscriptionsRounded';
-import WhatsappRoundedIcon from '@mui/icons-material/WhatsappRounded';
+//import WhatsAppRoundedIcon from '@mui/icons-material/WhatsAppRounded';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import logo from '../../Images/bravasologo.png';
 
@@ -10,7 +11,7 @@ const Footer = () => {
     const categories = ['Moda Hombre', 'Moda mujer', 'Computo', 'Tv y Audio', 'ElectroHogar', 'DecoHogar'];
     const pages = ['Home', 'Login', 'RegistroUsuarios', 'ListaProductos', 'DetalleProductos', 'ListaFavoritos', 'CarroCompra'];
     const Icons = [
-        <WhatsappRoundedIcon sx={{ color: '#DEDEDE ' }} />,
+        <WhatsAppIcon  sx={{ color: '#DEDEDE ' }} />,
         <SubscriptionsRoundedIcon sx={{ color: '#DEDEDE ' }} />,
         <FacebookIcon sx={{ color: '#DEDEDE ' }} />
     ];
