@@ -10,7 +10,7 @@ const CarrusuelImages = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://dynamic-yield.linio.com//api/scripts/8767678/images/3791e959cd6b8__big_banner_2_linternacional.jpg"
+                            src="https://www.dropbox.com/scl/fi/lvq7cha8s71n9qovjntik/00.jpg?rlkey=wj01taje4w6buoj53r150kz2y&dl=0"
                             alt="First slide"
                         />
                         <Carousel.Caption></Carousel.Caption>
@@ -18,7 +18,7 @@ const CarrusuelImages = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://dynamic-yield.linio.com//api/scripts/8767678/images/1108c022b6bd8__linio_falabella_on_bb2_ext.jpg"
+                            src="https://www.dropbox.com/scl/fi/qvxcb1uq93xbrd6indf9w/10.jpg?rlkey=31zorinp3d3jkb6vu6qa0d1m5&dl=0"
                             alt="Second slide"
                         />
 
@@ -27,7 +27,7 @@ const CarrusuelImages = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://i.linio.com/cms/f01d0156-1cbc-11ed-8191-56c2aa9f22e9.webp"
+                            src="https://www.dropbox.com/scl/fi/9cjsysymzwj9hcyw9x3i0/20.jpg?rlkey=aamb0t3ws850btpkrfdqt0xsn&dl=0"
                             alt="Third slide"
                         />
 
