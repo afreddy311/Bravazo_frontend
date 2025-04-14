@@ -2,10 +2,12 @@ import { Grid, Typography, Container, Box } from '@mui/material';
 import { ViewProductCart, ViewCarrusuelimages, ViewCarruselProduct, ViewCategoriesFeatured } from '../../components';
 
 const ListProduct = () => {
+    
     return (
+        
         <Box>
             <ViewCarrusuelimages />
-
+            
             <Container maxWidth="xl">
                 {/* <ViewCategoriesFeatured /> */}
                 <Grid container justifyContent="center" spacing={3} mt={5}>
@@ -25,3 +27,6 @@ const ListProduct = () => {
 };
 
 export default ListProduct;
+
+
+  

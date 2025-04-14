@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Typography, Box, Button, Grid, IconButton, Drawer } from '@mui/material';
+import { AppBar, Toolbar, Typography, Box, Button, Grid, IconButton, Drawer, TextField } from '@mui/material';
 
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
@@ -11,6 +11,8 @@ import LoginModal from '../LoginModal';
 import { DataContext } from '../../Context/DataProvider';
 import MenuList from '../MenuList';
 import { useNavigate } from 'react-router-dom';
+import { Row } from 'react-bootstrap';
+import { Padding } from '@mui/icons-material';
 
 const NavBars = () => {
     const history = useNavigate();
@@ -49,13 +51,26 @@ const NavBars = () => {
                     <IconButton onClick={() => setEstado(true)}>
                         <MenuIcon sx={{ color: 'black' }} />
                     </IconButton>
-                    <Grid container justifyContent="space-between" alignItems="center">
-                        <Grid item>
+                    <Grid container justifyContent="space-between" alignItems="center" >
+                        <Grid item >
                             <Typography conponent="div" variant="h6" sx={{ color: 'black', mx: 2, fontWeight: 300 }}>
                                 <img src={logo} width="50px" alt="" onClick={() => history('/')} /> Bravaso
                             </Typography>
                         </Grid>
-                        <Grid item>
+                        <Grid justifyContent="flex-end" className='m-5'>                           
+                            
+                            <Typography conponent="div" variant="h6" sx={{ color: 'black', mx: 2, fontWeight: 300 }}>
+                                <img src={logo} width="50px" alt="" onClick={() => history('/')} /> <text sx={{ cursor:'pointer'}}> Inicio </text>
+
+                                <img src={logo} width="50px" alt="" onClick={() => history('/')} /> Productos
+ 
+                                <img src={logo} width="50px" alt="" onClick={() => history('/')} /> Blog
+
+                                <img src={logo} width="50px" alt="" onClick={() => history('/')} /> Contacto
+                            </Typography>
+                            
+                        </Grid >
+                        <Grid>    
                             {/* <TextField id="filled-search" label="Search field" type="search" variant="filled" sx={{ color: 'white' }} /> */}
                             {/* <Button variant="text" onClick={() => setOpenModalLogin(true)}> */}
                             <PersonOutlineOutlinedIcon

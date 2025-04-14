@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-container {
+  max-width: 800px; /* Ancho fijo para centrar el carrusel */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  text-align: center; /* Opcional: Para alinear texto o contenido */
+}  
